@@ -103,6 +103,25 @@ main {
 	border-left: 4px solid #53b7ea;
 	padding-left: 1em;
 }
+
+/* New Styles for Testimonials */
+.testimonial {
+	background-color: #f4f4f4;
+	border-left: 5px solid #53b7ea;
+	margin: 2rem 0;
+	padding: 1.2rem;
+	font-style: italic;
+	font-size: 1.2rem;
+	line-height: 1.5;
+}
+.testimonial span {
+	display: block;
+	font-size: 1rem;
+	font-weight: bold;
+	color: #333;
+	margin-top: 0.5rem;
+}
+
 figure {
 	margin: 0;
 }
