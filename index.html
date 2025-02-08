@@ -24,7 +24,7 @@
 
 <div class="hero">
 	<h1>National Association to Promote Siestas</h1>
-	<p>Promoting siestas for increased health & happiness.</p>
+	<p>Promoting siestas for increased health & happiness.</p>
 </div>
 
 <main role="main">
@@ -43,6 +43,20 @@
 <footer>
 	<p>Copyright © National Association to Promote Siestas</p>
 </footer>
+
+<script>
+    var quotesArray = [
+        "NAPS is by far the most significant cultural force of the decade. — New York Times",
+        "NAPS has ushered in a new era of sleep. — USA Today",
+        "The siesta revolution is upon us, thanks to NAPS. — The Guardian",
+        "Sleep now, work later: A motto to live by, brought to you by NAPS. — The Washington Post",
+        "NAPS is changing the way we think about rest. — The Wall Street Journal"
+    ];
+
+    var randomNumber = Math.floor(Math.random() * quotesArray.length);
+    var quoteParts = quotesArray[randomNumber].split(" — ");
+    document.getElementById('press-quote').textContent = `"${quoteParts[0]}" — ${quoteParts[1]}`;
+</script>
 
 </body>
 </html>
